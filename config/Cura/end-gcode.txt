@@ -1,0 +1,20 @@
+G1 Z220 F600 ; Move print head up
+M140 S0 ; turn off heatbed
+M104 S0 ; turn off temperature
+M107 ; turn off fan
+M190 R30 ; set bed to 30 and wait for cooldown
+M190 R30 ; set bed to 30 and wait for cooldown
+M190 R30 ; set bed to 30 and wait for cooldown
+M190 R30 ; set bed to 30 and wait for cooldown
+M190 R30 ; set bed to 30 and wait for cooldown
+M190 R30 ; set bed to 30 and wait for cooldown
+M190 R30 ; set bed to 30 and wait for cooldown
+M190 R30 ; set bed to 30 and wait for cooldown
+M190 R30 ; set bed to 30 and wait for cooldown
+M190 R30 ; set bed to 30 and wait for cooldown
+G0 X200 Y235 ;move to back corner
+G0 X110 Y235 ;move to mid bed aft
+G0 Z1 ;come down to 1MM from bed
+G0 Y0 ;wipe forward
+G0 Y235 ;wipe aft
+G28 ; home
